@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Swipe</string>
+    <string name="tab_text_1">Mantra</string>
+    <string name="tab_text_2">Video</string>
+    <string name="tab_text_3">Article</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="linear_layout_manager">Linear</string>
+    <string name="grid_layout_manager">Grid</string>
+    <string name="tab_zero">Mantra</string>
+    <string name="tab_one">Video</string>
+    <string name="tab_two">Article</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="MantraTitleList">
+        <item>楞严咒 梵文版</item>
+        <item>楞严咒 中文版</item>
+        <item>楞严咒心 元音老人念诵</item>
+        <item>药师佛心咒 元音老人念诵</item>
+        <item>大悲咒 梵文版</item>
+        <item>大悲咒 中文版</item>
+        <item>六字大明咒 中文版</item>
+        <item>消一切业障病神咒 元音老人念诵</item>
+        <item>消一切业障病神咒 元音老人念诵</item>
+        <item>治眼病咒 元音老人念诵</item>
+        <item>大光明咒 元音老人念诵</item>
+        <item>地藏菩萨心咒 元音老人念诵</item>
+        <item>往生广咒 元音老人念诵</item>
+        <item>六道金刚咒 元音老人念诵</item>
+        <item>慈氏咒 元音老人念诵</item>
+        <item>听闻解脱咒 元音老人念诵</item>
+        <item>本觉大密咒 元音老人念诵</item>
+        <item>寂怒百尊海会圣众咒 </item>
+        <item>佛顶尊胜陀罗尼咒	 </item>
+        <item>宝箧印陀罗尼咒	</item>
+    </string-array>
+    <string name="title_activity_detail">DetailActivity</string>
+
+</resources>
