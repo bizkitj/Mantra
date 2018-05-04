@@ -40,41 +40,32 @@ public class RecyclerViewCustomAdapter extends RecyclerView.Adapter<RecyclerView
         // Get element from your dataset at this position and replace the contents of the view
         // with that element
         textView.setText(mDataSet[position]);
-        textView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                fragment2ActivityCommunicatorListener.dataFromFragmentBackToActivity(view);
-                Log.v(TAG, "# clicked is " + String.valueOf(viewHolder.getAdapterPosition()));
-            }
-        });
     }
 
-    // END_INCLUDE(recyclerViewOnCreateViewHolder)
     // Return the size of your dataset (invoked by the layout manager)
     @Override
     public int getItemCount() {
         return mDataSet.length;
     }
 
-    static class ViewHolder extends RecyclerView.ViewHolder {
+     class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         private final TextView textView;
 
         ViewHolder(View v) {
             super(v);
-//            v.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View v) {
-//
-//                    Log.v(TAG, getAdapterPosition() + " clicked.");
-//                }
-//            });
             textView = v.findViewById(R.id.textView);
+            textView.setOnClickListener(this);
         }
 
         TextView getTextView() {
             return textView;
         }
 
+        @Override
+        public void onClick(View view) {
+            fragment2ActivityCommunicatorListener.dataFromFragmentBackToActivity(view);
+            Log.v(TAG, "Clicked position # " + String.valueOf(getAdapterPosition()));
+        }
     }
 
 }

@@ -5,4 +5,12 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="appbar_padding_top">8dp</dimen>
     <dimen name="elevation">4dp</dimen>
+    <dimen name="padding">8dp</dimen>
+
+    <!--reference https://material.io/guidelines/style/typography.html#typography-line-height-->
+    <dimen name="textTitleSize">17sp</dimen>
+    <dimen name="textBodySize">15sp</dimen>
+    <dimen name="textBodyLeading">23dp</dimen>
+
+
 </resources>

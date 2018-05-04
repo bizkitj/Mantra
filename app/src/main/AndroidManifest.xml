@@ -20,9 +20,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activity.DetailActivity"
+            android:name=".Activity.ArticleDetailActivity"
             android:label="@string/title_activity_detail"
             android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activity.MantraDetailActivity"
+            android:label="@string/title_activity_mantra_detail"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Activity.VideoDetailActivity"></activity>
     </application>
 
 </manifest>

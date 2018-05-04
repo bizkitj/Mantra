@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="article_title">
+        <!--http://www.yxjs.org/wenji/content.htm-->
+        <!--心密初祖大愚阿阇黎-->
+        <item>大愚阿阇黎略传</item>
+        <item>解脱歌</item>
+        <item>修行要诀</item>
+        <!--心密二祖仁知阿阇黎-->
+        <item>序传</item>
+        <item>金刚般若波罗蜜经分段贯释序</item>
+        <item>金刚般若波罗蜜经白话述义</item>
+        <item>般若波罗蜜多心经分段贯释</item>
+        <item>般若波罗蜜多心经白话分段解释</item>
+        <item>大方广圆觉修多罗了义经抉隐</item>
+        <item>大鉴禅师法宝坛经述旨</item>
+        <item>佛说阿弥陀经经义略说</item>
+        <item>佛说阿弥陀经分段正义</item>
+        <item>学佛最初之决定</item>
+        <item>乙亥讲演录</item>
+        <item>入佛明宗答问</item>
+        <item>印心语录</item>
+        <item>学佛丛谈</item>
+        <item>观微杂说</item>
+        <item>养生论</item>
+        <item>点滴</item>
+        <item>整理后记</item>
+        <!--心密三祖元音阿阇黎-->
+        <item>佛法修证心要</item>
+        <item>佛法修证心要问答集</item>
+        <item>大手印浅释</item>
+        <item>净土指归</item>
+        <item>禅净密互融互通的修法</item>
+        <item>成佛的诀窍</item>
+        <item>略论禅宗</item>
+        <item>人人皆当成佛</item>
+        <item>法偈</item>
+
+
+    </string-array>
+    <string-array name="mantra_title">
+        <item>楞严咒 梵文版</item>
+        <item>楞严咒 中文版</item>
+        <item>楞严咒心 元音老人念诵</item>
+        <item>药师佛心咒 元音老人念诵</item>
+        <item>大悲咒 梵文版</item>
+        <item>大悲咒 中文版</item>
+        <item>六字大明咒 中文版</item>
+        <item>消一切业障病神咒 元音老人念诵</item>
+        <item>消一切业障病神咒 元音老人念诵</item>
+        <item>治眼病咒 元音老人念诵</item>
+        <item>大光明咒 元音老人念诵</item>
+        <item>地藏菩萨心咒 元音老人念诵</item>
+        <item>往生广咒 元音老人念诵</item>
+        <item>六道金刚咒 元音老人念诵</item>
+        <item>慈氏咒 元音老人念诵</item>
+        <item>听闻解脱咒 元音老人念诵</item>
+        <item>本觉大密咒 元音老人念诵</item>
+        <item>寂怒百尊海会圣众咒 </item>
+        <item>佛顶尊胜陀罗尼咒	 </item>
+        <item>宝箧印陀罗尼咒	</item>
+    </string-array>
+    <string-array name="video_title">
+        <item>渭南路寓所开示</item>
+        <item>元音老人镇江随缘答问</item>
+        <item>在各地的开示</item>
+        <item>在各地的开示</item>
+        <item>在各地的开示</item>
+        <item>在各地的开示</item>
+        <item>在各地的开示</item>
+        <item>在各地的开示</item>
+        <item>在各地的开示</item>
+        <item>在各地的开示</item>
+        <item>对经典的讲解</item>
+        <item>对经典的讲解</item>
+        <item>对经典的讲解</item>
+        <item>对经典的讲解</item>
+        <item>慈氏咒 元音老人念诵</item>
+        <item>听闻解脱咒 元音老人念诵</item>
+        <item>本觉大密咒 元音老人念诵</item>
+        <item>寂怒百尊海会圣众咒 </item>
+        <item>佛顶尊胜陀罗尼咒	 </item>
+        <item>宝箧印陀罗尼咒	</item>
+    </string-array>
+
+
+</resources>

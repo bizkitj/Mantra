@@ -13,11 +13,11 @@ import android.view.ViewGroup;
 public class ArticleListFragment extends BaseListFragment {
     private String TAG = ArticleListFragment.class.getSimpleName();
 
-    public static ArticleListFragment newInstance(String[] mantraList) {
+    public static ArticleListFragment newInstance(String[] articleList) {
         ArticleListFragment fragment = new ArticleListFragment();
         Bundle args = new Bundle();
         args.putSerializable(KEY_LAYOUT_MANAGER, LayoutManagerType.LINEAR_LAYOUT_MANAGER);
-        args.putStringArray(DATASET,mantraList);
+        args.putStringArray(DATASET,articleList);
         fragment.setArguments(args);
         return fragment;
     }
