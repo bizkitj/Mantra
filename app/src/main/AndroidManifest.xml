@@ -9,25 +9,57 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="android.app.searchable"
+            android:value="com.example.jeason.swipe.ArticleSearchResultsActivity" />
+
+
         <activity
-            android:name=".Activity.MainActivity"
+            android:name=".activity.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--Declare the searchable.xml element in an <activity> that you want to display the SearchView in-->
         <activity
-            android:name=".Activity.ArticleDetailActivity"
+            android:name=".activity.ArticleDetailActivity"
             android:label="@string/title_activity_detail"
-            android:theme="@style/AppTheme" />
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme">
+            <!--https://stackoverflow.com/questions/19232511/whats-the-difference-between-android-app-default-searchable-and-android-app-sea-->
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".activity.ArticleSearchResultsActivity" />
+        </activity>
         <activity
-            android:name=".Activity.MantraDetailActivity"
+            android:name=".activity.MantraDetailActivity"
             android:label="@string/title_activity_mantra_detail"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Activity.VideoDetailActivity"></activity>
+        <activity
+            android:name=".activity.VideoDetailActivity"
+            android:label="@string/title_activity_video_detail"
+            android:theme="@style/AppTheme" />
+
+        <service
+            android:name=".services.MediaPlayService"
+            android:exported="false" />
+
+        <!--this is the searchable activity-->
+        <!--A searchable activity is the Activity in your application that performs searches based on a query string and presents the search results-->
+        <activity
+            android:name=".activity.ArticleSearchResultsActivity"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
     </application>
 
 </manifest>

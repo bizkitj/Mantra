@@ -40,7 +40,7 @@ public class SectionsPagerAdapter extends SmartFragmentStatePagerAdapter {
             case 1:
                 return VideoListFragment.newInstance(videoList);
             case 2:
-                return ArticleListFragment.newInstance(articleList);
+                return ArticleListFragment.newInstance();
             default:
                 return null;
         }

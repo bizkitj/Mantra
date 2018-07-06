@@ -16,5 +16,15 @@
 
     <string name="title_activity_detail">DetailActivity</string>
     <string name="title_activity_mantra_detail">MantraDetailActivity</string>
+    <string name="title_activity_video_detail">VideoDetailActivity</string>
+    <string name="first_assembly">1</string>
+    <string name="second_assembly">2</string>
+    <string name="third_assembly">3</string>
+    <string name="fourth_assembly">4</string>
+    <string name="five_assembly">5</string>
+    <string name="mantra_essence">咒心</string>
+    <string name="search_title">search</string>
+    <string name="search_hint">Keyword to search</string>
+    <string name="search_result">Search result</string>
 
 </resources>

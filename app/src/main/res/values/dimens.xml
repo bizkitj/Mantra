@@ -8,9 +8,14 @@
     <dimen name="padding">8dp</dimen>
 
     <!--reference https://material.io/guidelines/style/typography.html#typography-line-height-->
-    <dimen name="textTitleSize">17sp</dimen>
-    <dimen name="textBodySize">15sp</dimen>
+    <dimen name="textBody1Size">16sp</dimen>
+    <dimen name="textBody2Size">14sp</dimen>
+    <dimen name="textBody3Size">12sp</dimen>
     <dimen name="textBodyLeading">23dp</dimen>
 
-
+    <!--need to do further adjustment-->
+    <dimen name="button_diameter">48dp</dimen>
+    <dimen name="padding_Parent">32dp</dimen>
+    <dimen name="padding_SecondLevel">48dp</dimen>
+    <dimen name="padding_ThirdLevel">64dp</dimen>
 </resources>

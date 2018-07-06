@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button_one"
+        android:layout_width="@dimen/button_diameter"
+        android:layout_height="@dimen/button_diameter"
+        android:background="@drawable/rounded_button"
+        android:text="@string/first_assembly"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toStartOf="@+id/button_two"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_two"
+        android:layout_width="@dimen/button_diameter"
+        android:layout_height="@dimen/button_diameter"
+        android:background="@drawable/rounded_button"
+        android:text="@string/second_assembly"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toStartOf="@+id/button_three"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_one" />
+
+    <Button
+        android:id="@+id/button_three"
+        android:layout_width="@dimen/button_diameter"
+        android:layout_height="@dimen/button_diameter"
+        android:background="@drawable/rounded_button"
+        android:text="@string/third_assembly"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toStartOf="@+id/button_four"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_two" />
+
+    <Button
+        android:id="@+id/button_four"
+        android:layout_width="@dimen/button_diameter"
+        android:layout_height="@dimen/button_diameter"
+        android:background="@drawable/rounded_button"
+        android:text="@string/fourth_assembly"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toStartOf="@+id/button_five"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_three" />
+
+    <Button
+        android:id="@+id/button_five"
+        android:layout_width="@dimen/button_diameter"
+        android:layout_height="@dimen/button_diameter"
+        android:background="@drawable/rounded_button"
+        android:text="@string/five_assembly"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toStartOf="@+id/button_six"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_four" />
+
+    <Button
+        android:id="@+id/button_six"
+        android:layout_width="@dimen/button_diameter"
+        android:layout_height="@dimen/button_diameter"
+        android:background="@drawable/rounded_button"
+        android:text="@string/mantra_essence"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_five" />
+
+</android.support.constraint.ConstraintLayout>
